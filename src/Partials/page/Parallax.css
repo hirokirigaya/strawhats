@@ -1,0 +1,42 @@
+.parallax {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  position: relative;
+  padding-top: 6rem;
+}
+
+
+.parallax img {
+  position: absolute;
+  object-fit: cover;
+}
+
+.parallax img#luffy {
+  z-index: 10;
+}
+
+.parallax img#particles {
+  z-index: 11;
+}
+
+.parallax img#crocodile {
+  z-index: 9;
+}
+
+.parallax #btn {
+  z-index: 12;
+  color: #e6e6e6;
+  background-color: #060606;
+  padding: .3rem 1rem;
+  border-radius: 20px;
+  font-size: 1.25rem;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 200ms ease-in-out;
+}
+
+.parallax #btn:hover {
+  transform: scale(1.1);
+}

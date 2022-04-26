@@ -1,0 +1,12 @@
+main {
+  position: relative;
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+header {
+  position: relative;
+  max-width: 1280px;
+  margin: 0 auto;
+}
