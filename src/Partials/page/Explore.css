@@ -38,3 +38,52 @@
   transform: rotateY(180deg);
   transform: scale(0.6);
 }
+
+@media(max-width: 900px) {
+  .sec h2 {
+    margin-bottom: 1.2rem;
+    font-size: 2rem;
+  }
+  
+  .sec p {
+    font-size: 1rem;
+    color: #1b1b1b;
+  }
+}
+
+@media(max-width: 500px) {
+  .sec h2 {
+    margin-bottom: 1.2rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .sec p {
+    font-size: 1rem;
+    color: #1b1b1b;
+  }
+
+  .sec {
+    padding: 0px 20px;
+  }
+
+  .sec {
+    overflow: hidden auto;
+    max-height: 400px;
+  }
+
+  
+#bubble1,
+#bubble2 {
+  width: 30%;
+  position: absolute;
+  filter: opacity(0.6);
+}
+
+#bubble1 {
+  width: 30%;
+  transform: rotateY(180deg);
+  transform: scale(0.6);
+}
+}
+
