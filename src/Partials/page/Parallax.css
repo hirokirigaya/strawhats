@@ -40,3 +40,28 @@
 .parallax #btn:hover {
   transform: scale(1.1);
 }
+
+@media(max-width: 700px) {
+  .parallax img {
+    width: 600px;
+  }
+
+  .parallax img#crocodile {
+    top: 10rem;
+  }
+}
+@media(max-width: 600px) {
+  .parallax img {
+    width: 400px;
+  }
+}
+
+@media(max-width: 500px) {
+  .parallax img {
+    width: 400px;
+  }
+
+  .parallax img#crocodile {
+    top: 10rem;
+  }
+}
