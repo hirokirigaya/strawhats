@@ -71,8 +71,8 @@ function Explore() {
         aut optio laborum nisi molestiae amet, nulla pariatur distinctio, porro
         sunt beatae officia dolore eos, perferendis temporibus odio quas?
       </p>
-      <img src="../img/particles.png" alt="bubble" id='bubble1'/>
-      <img src="../img/particles.png" alt="bubble" id='bubble2'/>
+      <img src="/../img/particles.png" alt="bubble" id='bubble1'/>
+      <img src="/../img/particles.png" alt="bubble" id='bubble2'/>
     </div>
   );
 }
